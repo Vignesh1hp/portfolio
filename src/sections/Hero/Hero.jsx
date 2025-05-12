@@ -1,4 +1,3 @@
-import React from "react";
 import "./HeroStyles.module.css";
 import HeroImg from "../../assets/hero-img.png";
 import themeIcon from "../../assets/sun.svg";
@@ -15,7 +14,7 @@ const Hero = () => {
           src={HeroImg}
           alt="Profile Picture of Vignesh Kumar"
         />
-        <img className="colorMode" src={themeIcon} alt="color mode icon" />
+        <img className="colorMode" src={themeIcon} alt="color mode icon"/>
       </div>
       <div>
         <h1>
